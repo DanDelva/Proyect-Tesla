@@ -1,5 +1,6 @@
-/* Fondo negro para toda la página */
+/* Fuente para el texto en toda la página */
 body {
+    font-family: 'Roboto', sans-serif; /* Mantén la fuente que se estaba usando */
     background-color: #000000; /* Fondo negro */
     color: #f8f9fa; /* Color de texto blanco */
 }
@@ -13,6 +14,31 @@ body {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.hero h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: "Open Sans", sans-serif; /* Fuente similar a Tesla */
+    font-size: 2.5rem;  /* Tamaño de la fuente adecuado para dispositivos móviles */
+    font-weight: bold;  /* Estilo negrita */
+    color: #f8f9fa; /* Blanco para el texto */
+}
+
+
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;  /* Ajustar el tamaño del texto en pantallas más pequeñas */
+    }
 }
 
 /* Estilos de las tarjetas */
